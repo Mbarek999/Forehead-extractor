@@ -1,38 +1,54 @@
-# Forehead-extractor
-Forehead Region Extractor using OpenCV
-A simple computer vision application that detects and extracts forehead regions from live camera feed without using AI.
+Forehead Extractor
+A lightweight, real-time forehead region extractor using classical computer vision techniques.
 
-Features
-Real-time forehead detection from webcam feed
+This C++ application uses OpenCV to detect and extract the forehead region from a live webcam feed — entirely without any machine learning or AI models.
 
-Edge detection using Sobel filters
+✨ Features
+📷 Real-time forehead detection from webcam input
 
-Contour-based region identification
+🧠 No AI or machine learning dependencies
 
-ROI extraction with adjustable parameters
+🟦 Edge detection using Sobel filters
 
-No machine learning/AI dependencies
+🔍 Contour-based region identification
 
-Requirements
+🖼 ROI (Region of Interest) extraction with tunable parameters
+
+💡 Optimized for performance on low-power systems
+
+🔧 Requirements
 OpenCV 4.x
 
 C++17 compatible compiler
 
 Webcam
 
-Installation
+🚀 Installation
+bash
+Copy
+Edit
 git clone https://github.com/Mbarek999/Forehead-extractor.git
-cd forehead-extractor
+cd Forehead-extractor
 mkdir build && cd build
 cmake ..
 make
-
-Usage
+▶️ Usage
+bash
+Copy
+Edit
 ./forehead_extractor
+The program will start capturing from your webcam and highlight the detected forehead region in real time.
 
-  Motivation
-Most facial ROI extractors rely on heavy ML models (like Haar cascades or DNNs). This implementation proves that classical computer vision can still solve focused problems efficiently – with better performance and simpler deployment than AI-based solutions.
+🎯 Motivation
+Most facial region extractors rely on machine learning models (e.g., Haar cascades, deep neural networks).
+This project demonstrates that classical computer vision techniques are still powerful and efficient for targeted tasks — offering faster performance and easier deployment.
 
+📚 Citation
+If you find this project useful, please consider citing:
+
+bibtex
+Copy
+Edit
 @article{elboussaki2023pca,
   title={Non-contact Respiratory Rate Monitoring Based on Principal Component Analysis},
   author={El Boussaki, Hoda and Latif, Rachid and Saddik, Amine and El Khadiri, Zakaria and El Boujaoui, Hicham},
@@ -41,5 +57,8 @@ Most facial ROI extractors rely on heavy ML models (like Haar cascades or DNNs).
   number={9},
   year={2023},
   publisher={The Science and Information Organization},
-  url={www.ijacsa.thesai.org}
+  url={https://www.ijacsa.thesai.org}
 }
+📄 License
+MIT License — feel free to use, modify, and share.
+
