@@ -1,54 +1,51 @@
-Forehead Extractor
-A lightweight, real-time forehead region extractor using classical computer vision techniques.
+# Forehead Extractor
+
+**A lightweight, real-time forehead region extractor using classical computer vision techniques.**
 
 This C++ application uses OpenCV to detect and extract the forehead region from a live webcam feed — entirely without any machine learning or AI models.
 
-✨ Features
-📷 Real-time forehead detection from webcam input
+---
 
-🧠 No AI or machine learning dependencies
+## ✨ Features
 
-🟦 Edge detection using Sobel filters
+- 📷 Real-time forehead detection from webcam input  
+- 🧠 No AI or machine learning dependencies  
+- 🟦 Edge detection using Sobel filters  
+- 🔍 Contour-based region identification  
+- 🖼 ROI (Region of Interest) extraction with tunable parameters  
+- 💡 Optimized for performance on low-power systems  
 
-🔍 Contour-based region identification
+---
 
-🖼 ROI (Region of Interest) extraction with tunable parameters
+## 🔧 Requirements
 
-💡 Optimized for performance on low-power systems
+- OpenCV 4.x  
+- C++17 compatible compiler  
+- Webcam  
 
-🔧 Requirements
-OpenCV 4.x
+---
 
-C++17 compatible compiler
+## 🚀 Installation
 
-Webcam
-
-🚀 Installation
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/Mbarek999/Forehead-extractor.git
 cd Forehead-extractor
 mkdir build && cd build
 cmake ..
 make
-▶️ Usage
-bash
-Copy
-Edit
+```
+Usage
+```bash
 ./forehead_extractor
-The program will start capturing from your webcam and highlight the detected forehead region in real time.
+```
 
 🎯 Motivation
 Most facial region extractors rely on machine learning models (e.g., Haar cascades, deep neural networks).
-This project demonstrates that classical computer vision techniques are still powerful and efficient for targeted tasks — offering faster performance and easier deployment.
+This project demonstrates that classical computer vision techniques are still powerful and efficient for focused tasks — offering faster performance and simpler deployment.
 
 📚 Citation
-If you find this project useful, please consider citing:
+If you find this project helpful, please consider citing:
 
-bibtex
-Copy
-Edit
 @article{elboussaki2023pca,
   title={Non-contact Respiratory Rate Monitoring Based on Principal Component Analysis},
   author={El Boussaki, Hoda and Latif, Rachid and Saddik, Amine and El Khadiri, Zakaria and El Boujaoui, Hicham},
@@ -61,4 +58,3 @@ Edit
 }
 📄 License
 MIT License — feel free to use, modify, and share.
-
