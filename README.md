@@ -29,3 +29,17 @@ make
 
 Usage
 ./forehead_extractor
+
+  Motivation
+Most facial ROI extractors rely on heavy ML models (like Haar cascades or DNNs). This implementation proves that classical computer vision can still solve focused problems efficiently – with better performance and simpler deployment than AI-based solutions.
+
+@article{elboussaki2023pca,
+  title={Non-contact Respiratory Rate Monitoring Based on Principal Component Analysis},
+  author={El Boussaki, Hoda and Latif, Rachid and Saddik, Amine and El Khadiri, Zakaria and El Boujaoui, Hicham},
+  journal={International Journal of Advanced Computer Science and Applications},
+  volume={14},
+  number={9},
+  year={2023},
+  publisher={The Science and Information Organization},
+  url={www.ijacsa.thesai.org}
+}
